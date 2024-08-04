@@ -27,11 +27,11 @@ jobs:
         with: 
               node-version: "14.X"
       - name: install next.js
-        run: npm install next react react-dom
+        run: npm install next react react-dom -g
       # - name: install deps
         # run: npm install
       - name: build app
-        run: npm run build
+        run: cd blog-front-end & npm run build
       - name: copy file via ssh key
         uses: appleboy/scp-action@master
         with:
