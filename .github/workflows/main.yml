@@ -37,4 +37,6 @@ jobs:
             target: ${{ secrets.REMOTE_PATH }} # Remote dir path  服务器下部署文件存放路径
             host: ${{ secrets.REMOTE_HOST }} # SSH address  服务器地址
             port: 22 # SSH Port  服务器端口
-            key: ${{ secrets.SSH_KEY }} # key  密匙   
+            key: ${{ secrets.SSH_KEY }} # key  密匙
+            username: ${{ secrets.USER_NAME }}
+            password: ${{ secrets.PASSWORD }}
