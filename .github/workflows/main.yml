@@ -38,8 +38,8 @@ jobs:
             host: ${{ secrets.REMOTE_HOST }} # SSH address  服务器地址
             port: 22 # SSH Port  服务器端口
             key: ${{ secrets.SSH_KEY }} # key  密匙
-    	# ===========================================
-     	# key和pwd只能二选一
-          # username: ${{ secrets.USER_NAME }} # SSH User name   用户名
-          #  password: ${{ secrets.PASSWORD }} # SSH User password  用户密码
+    	       # ===========================================
+       	    # key和pwd只能二选一
+            # username: ${{ secrets.USER_NAME }} # SSH User name   用户名
+            #  password: ${{ secrets.PASSWORD }} # SSH User password  用户密码
     
