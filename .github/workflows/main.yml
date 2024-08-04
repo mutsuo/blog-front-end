@@ -26,8 +26,8 @@ jobs:
       #   uses: actions/setup-node@v3.0.0 
       #   with: 
       #         node-version: "14.X"
-      - name: install deps
-        run: npm install
+      # - name: install deps
+        # run: npm install
       - name: build app
         run: npm run build
       - name: copy file via ssh key
